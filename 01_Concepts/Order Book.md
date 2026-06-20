@@ -1,41 +1,64 @@
-# Order Book
+# Стакан заявок (Order Book)
 
-## Ukrainian
+## Назва українською
+
 Стакан заявок.
 
-## Simple meaning
-Таблиця заявок на купівлю і продаж. Вона показує наміри учасників, але не гарантує, що ці заявки реально будуть виконані.
+## Англійський термін
 
-## Key principle
+Order Book / DOM / Level 2.
 
-Order Book = intentions.
+## Простою мовою
 
-[[Tape]] = actions.
+Стакан заявок — це таблиця заявок на купівлю і продаж.
 
-## What to observe
+Він показує, де учасники хочуть купити або продати, але не гарантує, що ці заявки справді залишаться на місці.
 
-- bid liquidity
-- ask liquidity
-- [[Liquidity Wall]]
-- [[Order Book Imbalance]]
-- [[Refill]]
-- [[Quote Walking]]
-- [[Liquidity Removal Event]]
-- possible [[Spoofing]]
-- possible [[Iceberg Order]]
+## Де це видно
 
-## Weak signal
+У біржовому інтерфейсі як список цін і обсягів:
 
-Large visible order without executions.
+- bids — заявки на купівлю;
+- asks — заявки на продаж;
+- best bid — найкраща ціна купівлі;
+- best ask — найкраща ціна продажу.
 
-## Stronger signal
+## Чому це важливо
 
-Large visible order plus confirmation from [[Tape]].
+Order Book показує наміри.
 
-## Related concepts
+[[Стрічка угод (Tape)|Tape]] показує дії.
 
-- [[Tape]]
-- [[Liquidity]]
-- [[Bid-Ask Spread]]
-- [[Order Book Imbalance]]
-- [[Execution Cost]]
+```text
+Order Book = наміри
+Tape = виконані угоди
+```
+
+## Типова помилка новачка
+
+Бачити велику заявку і думати: «ціна точно не пройде цей рівень».
+
+Насправді велика заявка може бути:
+
+- реальною ліквідністю;
+- айсбергом;
+- фейковою заявкою;
+- частиною [[Spoofing]];
+- заявкою, яку швидко знімуть.
+
+## Що дивитися
+
+- [[Ліквідність (Liquidity)|Liquidity]];
+- [[Спред (Spread)|Spread]];
+- [[Стіна ліквідності (Liquidity Wall)|Liquidity Wall]];
+- [[Refill]];
+- [[Quote Walking]];
+- [[Iceberg Order]];
+- [[Liquidity Removal Event]].
+
+## Пов'язані концепти
+
+- [[Ліквідність (Liquidity)|Liquidity]]
+- [[Стрічка угод (Tape)|Tape]]
+- [[DOM vs Tape]]
+- [[Поглинання (Absorption)|Absorption]]
