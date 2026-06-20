@@ -11,10 +11,14 @@
             "id": "5f25986a2e0fb9a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "07_Sources/README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Нова вкладка"
+              "title": "README"
             }
           }
         ]
@@ -30,19 +34,6 @@
         "id": "a2ce5ab79bf9ed9e",
         "type": "tabs",
         "children": [
-          {
-            "id": "70862a9232946431",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Файловий менеджер"
-            }
-          },
           {
             "id": "527f0d6b24901671",
             "type": "leaf",
@@ -69,8 +60,22 @@
               "icon": "lucide-bookmark",
               "title": "Закладки"
             }
+          },
+          {
+            "id": "d7e60f8ee2679cc8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловий менеджер"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "07_Sources/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання"
+              "title": "Зворотні посилання для README"
             }
           },
           {
@@ -150,20 +156,21 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "07_Sources/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст"
+              "title": "Вміст README"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,8 +183,11 @@
       "bases:Створити нову базу": false
     }
   },
-  "active": "5f25986a2e0fb9a0",
+  "active": "d7e60f8ee2679cc8",
   "lastOpenFiles": [
+    "05_Results/README 1.md",
+    "07_Sources/README.md",
+    "00_Index/IMPORTED_NOTES_INDEX.md",
     "00_Index/HOME.md.md",
     "01_Concepts/Order Flow.md",
     "01_Concepts/Order Book.md",
