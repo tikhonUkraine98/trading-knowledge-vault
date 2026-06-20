@@ -1,37 +1,58 @@
-# Liquidity
+# Ліквідність (Liquidity)
 
-## Ukrainian
+## Назва українською
+
 Ліквідність.
 
-## Simple meaning
-Наскільки легко купити або продати актив без сильного зсуву ціни.
+## Англійський термін
 
-## Observable forms
+Liquidity.
 
-- tight or wide [[Bid-Ask Spread]]
-- depth in [[Order Book]]
-- speed of executions in [[Tape]]
-- [[Liquidity Wall]]
-- [[Liquidity Removal Event]]
-- [[Absorption]]
-- slippage during execution
+## Простою мовою
 
-## Why it matters
+Ліквідність — це наскільки легко купити або продати актив без сильного зсуву ціни.
 
-Most discovered research directions point back to liquidity:
+Якщо ліквідності багато, можна купити або продати великий обсяг майже без зміни ціни.
 
-- scalping
-- cross-exchange arbitrage
-- market making
-- order flow
-- execution cost
+Якщо ліквідності мало, навіть невелика угода може сильно зрушити ціну.
 
-## Key insight
+## Де це видно
 
-Liquidity is not just volume. It is the available ability to execute without destroying the expected price.
+- у [[Стакан заявок (Order Book)|Order Book]];
+- у ширині [[Спред (Spread)|Spread]];
+- у швидкості виконань у [[Стрічка угод (Tape)|Tape]];
+- у великих заявках типу [[Стіна ліквідності (Liquidity Wall)|Liquidity Wall]];
+- у різкому зникненні заявок — [[Зняття ліквідності (Liquidity Removal Event)|Liquidity Removal Event]];
+- у [[Поглинання (Absorption)|Absorption]].
 
-## Related modules
+## Чому це важливо
 
-- [[MICRO_001_LIQUIDITY_SCORE]]
-- [[ARB_019_EXECUTION_COST_ESTIMATOR]]
-- [[ARB_020_SPREAD_EXPANSION_MONITOR]]
+Ціна рухається не просто тому, що «покупців більше».
+
+Ціна рухається тоді, коли агресивний потік угод з'їдає доступну ліквідність.
+
+## Типова помилка новачка
+
+Думати, що велика заявка у стакані — це обов'язково сильний рівень.
+
+Насправді заявка може бути:
+
+- справжньою;
+- фейковою;
+- швидко знятою;
+- частиною маркет-мейкерської гри.
+
+## Ключова формула розуміння
+
+```text
+рух ціни = агресивний потік > доступна ліквідність
+```
+
+## Пов'язані концепти
+
+- [[Market Fundamentals]]
+- [[How Price Moves]]
+- [[Стакан заявок (Order Book)|Order Book]]
+- [[Спред (Spread)|Spread]]
+- [[Поглинання (Absorption)|Absorption]]
+- [[Дисбаланс (Imbalance)|Imbalance]]
