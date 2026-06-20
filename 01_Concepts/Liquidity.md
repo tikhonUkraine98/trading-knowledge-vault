@@ -18,12 +18,12 @@ Liquidity.
 
 ## Де це видно
 
-- у [[Стакан заявок (Order Book)|Order Book]];
-- у ширині [[Спред (Spread)|Spread]];
-- у швидкості виконань у [[Стрічка угод (Tape)|Tape]];
-- у великих заявках типу [[Стіна ліквідності (Liquidity Wall)|Liquidity Wall]];
-- у різкому зникненні заявок — [[Зняття ліквідності (Liquidity Removal Event)|Liquidity Removal Event]];
-- у [[Поглинання (Absorption)|Absorption]].
+- у [[Order Book|Стакан заявок (Order Book)]];
+- у ширині [[Spread|Спред (Spread)]];
+- у швидкості виконань у [[Tape|Стрічка угод (Tape)]];
+- у великих заявках типу [[Liquidity Wall|Стіна ліквідності (Liquidity Wall)]];
+- у різкому зникненні заявок — [[Liquidity Removal Event|Зняття ліквідності (Liquidity Removal Event)]];
+- у [[Absorption|Поглинання (Absorption)]].
 
 ## Чому це важливо
 
@@ -52,7 +52,7 @@ Liquidity.
 
 - [[Market Fundamentals]]
 - [[How Price Moves]]
-- [[Стакан заявок (Order Book)|Order Book]]
-- [[Спред (Spread)|Spread]]
-- [[Поглинання (Absorption)|Absorption]]
-- [[Дисбаланс (Imbalance)|Imbalance]]
+- [[Order Book|Стакан заявок (Order Book)]]
+- [[Spread|Спред (Spread)]]
+- [[Absorption|Поглинання (Absorption)]]
+- [[Imbalance|Дисбаланс (Imbalance)]]
