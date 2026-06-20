@@ -1,34 +1,37 @@
-# Iceberg Order
+# Айсберг-заявка (Iceberg Order)
 
-## Ukrainian
+## Назва українською
+
 Айсберг-заявка.
 
-## Simple meaning
-Велика заявка, в якій ринку видно лише малу частину обсягу. Коли видима частина виконується, вона оновлюється.
+## Англійський термін
 
-## Possible pattern
+Iceberg Order.
 
-Same price level:
+## Простою мовою
 
-- visible size executes
-- same size appears again
-- executes again
-- appears again
+Айсберг-заявка — це велика прихована заявка, у якій на ринку видно тільки малу частину реального обсягу.
 
-## Research hypothesis
+## Що бачить трейдер
 
-Part of refill signals may actually be iceberg orders.
+- на одному рівні постійно виконуються угоди;
+- видимий обсяг ніби знову і знову відновлюється;
+- рівень тримається довше, ніж мав би.
 
-## Required data
+## Що бачить бот
 
-- [[Order Book]]
-- [[Tape]]
-- repeated executions at the same price level
-- refill timing
+- repeated refill at same price;
+- high executed volume at level;
+- low visible size but high total execution.
 
-## Related concepts
+## Типові помилки
+
+- Думати, що якщо у стакані мало обсягу, то рівень слабкий.
+- Не враховувати приховану ліквідність.
+
+## Пов'язані концепти
 
 - [[Refill]]
-- [[Tape]]
-- [[Liquidity Wall]]
-- [[Absorption]]
+- [[Order Book|Стакан заявок]]
+- [[Absorption|Поглинання]]
+- [[Hidden Liquidity]]

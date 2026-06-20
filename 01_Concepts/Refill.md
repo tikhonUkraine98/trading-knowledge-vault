@@ -1,29 +1,39 @@
-# Refill
+# Поповнення заявки (Refill)
 
-## Ukrainian
-Автопоповнення заявки.
+## Назва українською
 
-## Simple meaning
-Заявка виконується, але швидко з'являється знову на тому самому або близькому рівні.
+Поповнення заявки / автопоповнення.
 
-## Why it matters
+## Англійський термін
 
-Refill may indicate:
+Refill.
 
-- market maker behavior
-- defensive liquidity
-- possible [[Iceberg Order]]
-- active level defense
+## Простою мовою
 
-## Required data
+Refill — це ситуація, коли заявку виконують, але вона швидко з'являється знову.
 
-- [[Order Book]] snapshots
-- [[Tape]] executions
-- timing between execution and reappearance
+Це може бути ознакою маркет-мейкера, айсберга або захисту рівня.
 
-## Related concepts
+## Що бачить трейдер
 
-- [[Iceberg Order]]
-- [[Absorption]]
-- [[Liquidity Wall]]
-- [[Range Bot]]
+- рівень наче постійно «відновлюється»;
+- по рівню проходять угоди, але він не зникає;
+- ціна не може пройти рівень.
+
+## Що бачить бот
+
+- execution at level;
+- visible size decreases;
+- visible size quickly returns;
+- repeated cycle.
+
+## Типові помилки
+
+- Не відрізняти refill від випадкового нового ордера.
+- Вважати refill готовим сигналом без перевірки реакції ціни.
+
+## Пов'язані концепти
+
+- [[Iceberg Order|Айсберг-заявка]]
+- [[Order Book|Стакан заявок]]
+- [[Absorption|Поглинання]]

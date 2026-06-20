@@ -1,31 +1,38 @@
-# Liquidity Wall
+# Стіна ліквідності (Liquidity Wall)
 
-## Ukrainian
-Стіна ліквідності / щільність.
+## Назва українською
 
-## Simple meaning
-Велика концентрація заявок на певному ціновому рівні.
+Стіна ліквідності.
 
-## What to measure
+## Англійський термін
 
-- wall size
-- wall lifetime
-- execution frequency
-- price impact
-- cancellation behavior
+Liquidity Wall.
 
-## Research hypothesis
+## Простою мовою
 
-Many classical support and resistance levels may actually be liquidity walls.
+Стіна ліквідності — це велика заявка або група заявок у стакані, яка сильно виділяється серед інших рівнів.
 
-## Stronger signal
+## Що бачить трейдер
 
-Liquidity wall plus confirmation from [[Tape]].
+- великий обсяг на одному рівні;
+- рівень, біля якого ціна сповільнюється;
+- боротьбу навколо цього рівня.
 
-## Related concepts
+## Що бачить бот
 
-- [[Order Book]]
-- [[Tape]]
-- [[Absorption]]
-- [[Liquidity Removal Event]]
-- [[Iceberg Order]]
+- обсяг на рівні значно більший за середній;
+- wall lifetime;
+- execution frequency;
+- price reaction near wall.
+
+## Типові помилки
+
+- Вважати будь-яку стіну справжнім рівнем.
+- Не перевіряти, чи стіну реально виконують, чи просто показують.
+
+## Пов'язані концепти
+
+- [[Order Book|Стакан заявок]]
+- [[Liquidity|Ліквідність]]
+- [[Spoofing]]
+- [[Absorption|Поглинання]]

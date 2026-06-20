@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_Sources/README.md",
+                "file": "02_Hypotheses/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_Sources/README.md",
+                "file": "02_Hypotheses/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,27 +183,33 @@
       "bases:Створити нову базу": false
     }
   },
-  "active": "d7e60f8ee2679cc8",
+  "active": "5f25986a2e0fb9a0",
   "lastOpenFiles": [
-    "05_Results/README 1.md",
-    "07_Sources/README.md",
-    "00_Index/IMPORTED_NOTES_INDEX.md",
-    "00_Index/HOME.md.md",
-    "01_Concepts/Order Flow.md",
-    "01_Concepts/Order Book.md",
-    "01_Concepts/Market Microstructure.md",
-    "01_Concepts/Liquidity.md",
-    "01_Concepts/Liquidity Wall.md",
-    "01_Concepts/Inventory Arbitrage.md",
-    "01_Concepts/Imbalance.md",
+    "02_Hypotheses/H004 Range Bot Detection.md",
+    "02_Hypotheses/H003 Spread Expansion Predicts Arbitrage.md",
+    "02_Hypotheses/H002 Absorption Precedes Reversal.md",
+    "02_Hypotheses/H001 Tape Confirms Order Book.md",
+    "02_Hypotheses/AUTO_HYPOTHESES.md",
+    "03_Modules/OF_003_ABSORPTION_DETECTOR.md",
+    "03_Modules/OF_001_DELTA_TRACKER.md",
+    "03_Modules/AUTO_MODULE_REGISTRY.md",
+    "03_Modules/ARB_021_MISPRICING_DETECTOR.md",
+    "03_Modules/ARB_019_EXECUTION_COST_ESTIMATOR.md",
+    "01_Concepts/How Price Moves.md",
     "01_Concepts/Iceberg Order.md",
-    "01_Concepts/Delta.md",
     "01_Concepts/DOM vs Tape.md",
+    "01_Concepts/Delta.md",
     "01_Concepts/Cross Exchange Arbitrage.md",
     "01_Concepts/CVD.md",
     "01_Concepts/Bid-Ask Spread.md",
     "01_Concepts/Absorption.md",
+    "00_Index/README.md",
+    "00_Index/MARKET_RESEARCH_INDEX.md",
+    "00_Index/KNOWLEDGE_PIPELINE_OUTPUT.md",
+    "00_Index/IMPORTED_NOTES_INDEX.md",
     "00_Index/HOME.md",
-    "README.md"
+    "07_Sources/README.md",
+    "05_Results/README 1.md",
+    "00_Index/HOME.md.md"
   ]
 }

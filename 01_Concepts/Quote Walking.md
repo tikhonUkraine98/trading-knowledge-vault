@@ -1,11 +1,40 @@
-# Quote Walking
+# Переставляння котирувань (Quote Walking)
 
-Quote Walking — рухома заявка — великий ордер систематично рухається за ціною.
+## Назва українською
 
-## Sources
+Переставляння котирувань.
 
-- [[AUTO_GLOSSARY]]
+## Англійський термін
 
-## Status
+Quote Walking.
 
-Generated stub. Needs manual/AI refinement.
+## Простою мовою
+
+Quote Walking — це коли велика заявка або група заявок рухається разом із ціною.
+
+Вона ніби переслідує ринок.
+
+## Що бачить трейдер
+
+- великий обсяг не стоїть на місці;
+- заявка переміщується вище або нижче;
+- ринок може відчувати постійний тиск.
+
+## Що бачить бот
+
+- same/similar visible size across nearby price levels;
+- repeated cancel and replace;
+- direction of quote movement;
+- relation to price movement.
+
+## Типові помилки
+
+- Думати, що це випадкові заявки.
+- Не бачити систематичного пересування ліквідності.
+
+## Пов'язані концепти
+
+- [[Order Book|Стакан заявок]]
+- [[Liquidity|Ліквідність]]
+- [[Liquidity Pressure]]
+- [[Moving Size]]
