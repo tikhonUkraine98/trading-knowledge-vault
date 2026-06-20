@@ -1,45 +1,61 @@
-# Tape
+# Стрічка угод (Tape)
 
-## English
+## Назва українською
+
+Стрічка угод / принти.
+
+## Англійський термін
+
 Tape / Prints / Trade Feed.
 
-## Ukrainian
-Стрічка виконаних угод.
+## Простою мовою
 
-## Simple meaning
-Потік реальних угод, які вже виконалися на біржі. На відміну від [[Order Book]], стрічка показує не наміри, а дії.
+Стрічка угод — це потік уже виконаних угод.
 
-## Core principle
+Стакан показує, що учасники хочуть зробити.
 
-Tape = actions.
+Стрічка показує, що вже реально відбулося.
 
-Executed trades are harder to fake than visible orders in the book.
+## Де це видно
 
-## What to observe
+У торговому інтерфейсі як список останніх угод:
 
-- large trades
-- repeated trade sizes
-- aggressive buying
-- aggressive selling
-- trade rhythm
-- tape confirmation near liquidity levels
-- [[Delta]]
-- [[CVD]]
-- [[Absorption]]
+- ціна;
+- обсяг;
+- час;
+- напрям агресії: купівля або продаж по ринку.
 
-## Research use
+## Чому це важливо
 
-Tape is needed for:
+Заявку в стакані можна поставити і зняти.
 
-- [[Order Flow]]
-- [[Delta]]
-- [[CVD]]
-- [[Absorption]]
-- [[Range Bot]] detection
-- [[Iceberg Order]] detection
-- [[Market Replay Engine]]
+А виконана угода вже сталася.
 
-## Related sources
+Тому стрічка часто надійніша для підтвердження, ніж сам стакан.
 
-- [[Microstructure Research Notes v1]]
-- [[Trader Dale Order Flow Webinar Analysis]]
+## Типова помилка новачка
+
+Дивитися тільки на свічку і не бачити, який потік угод створив цю свічку.
+
+Свічка — це підсумок.
+
+Tape — це процес.
+
+## Для бота
+
+Зі стрічки можна рахувати:
+
+- [[Дельта (Delta)|Delta]];
+- [[CVD]];
+- великі угоди;
+- повторювані обсяги;
+- агресивні покупки і продажі;
+- ознаки [[Поглинання (Absorption)|Absorption]].
+
+## Пов'язані концепти
+
+- [[Стакан заявок (Order Book)|Order Book]]
+- [[DOM vs Tape]]
+- [[Дельта (Delta)|Delta]]
+- [[Дисбаланс (Imbalance)|Imbalance]]
+- [[Поглинання (Absorption)|Absorption]]
