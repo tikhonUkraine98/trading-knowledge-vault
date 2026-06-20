@@ -1,39 +1,53 @@
-# Imbalance
+# Дисбаланс (Imbalance)
 
-## Ukrainian
+## Назва українською
+
 Дисбаланс.
 
-## Simple meaning
-Ситуація, коли одна сторона ринку значно сильніша за іншу.
+## Англійський термін
 
-## Types
+Imbalance.
 
-### Order Book Imbalance
+## Простою мовою
 
-Дисбаланс у стакані між bid liquidity та ask liquidity.
+Дисбаланс — це ситуація, коли одна сторона ринку помітно сильніша за іншу.
 
-### Order Flow Imbalance
+Наприклад, агресивних покупок значно більше, ніж агресивних продажів.
 
-Дисбаланс між агресивними покупками та агресивними продажами.
+## Де це видно
 
-## Working rule from notes
+Дисбаланс може бути у двох різних місцях:
 
-One side may be considered dominant when volume is around 3x larger than the opposite side.
+1. У [[Стакан заявок (Order Book)|Order Book]] — коли bid-side або ask-side значно більша.
+2. У [[Стрічка угод (Tape)|Tape]] — коли агресивні покупки або продажі домінують у виконаних угодах.
 
-## Research use
+## Чому це важливо
 
-- momentum detection
-- absorption detection
-- reversal research
-- liquidity pressure measurement
+Дисбаланс може показувати локальний тиск.
 
-## Related concepts
+Але сам по собі він не гарантує рух ціни.
 
-- [[Order Flow]]
-- [[Order Book]]
-- [[Delta]]
-- [[Absorption]]
+Якщо є сильний дисбаланс покупок, але ціна не росте, це може бути [[Поглинання (Absorption)|Absorption]].
 
-## Related module
+## Типова помилка новачка
 
-- [[OF_002_IMBALANCE_DETECTOR]]
+Побачити великий дисбаланс і одразу входити в угоду.
+
+Потрібно дивитися, чи цей дисбаланс реально рухає ціну.
+
+## Для бота
+
+Можливі метрики:
+
+- bid/ask imbalance;
+- order flow imbalance;
+- stacked imbalance;
+- реакція ціни після дисбалансу.
+
+## Пов'язані концепти
+
+- [[Ліквідність (Liquidity)|Liquidity]]
+- [[Стакан заявок (Order Book)|Order Book]]
+- [[Стрічка угод (Tape)|Tape]]
+- [[Дельта (Delta)|Delta]]
+- [[Поглинання (Absorption)|Absorption]]
