@@ -1,41 +1,47 @@
-# Order Flow
+# Потік ордерів (Order Flow)
 
-## Ukrainian
+## Назва українською
+
 Потік ордерів / потік виконаних угод.
 
-## Simple meaning
-Аналіз того, хто реально тисне на ринок зараз: агресивні покупці чи агресивні продавці.
+## Англійський термін
 
-## Core idea
+Order Flow.
 
-Candles show the outcome.
+## Простою мовою
 
-Order Flow shows the battle behind the outcome.
+Order Flow — це аналіз того, хто зараз агресивніше діє на ринку: покупці чи продавці.
 
-## Key components
+Він дивиться не тільки на ціну, а на те, які угоди реально виконуються.
 
-- [[Tape]]
-- [[Delta]]
+## Де це видно
+
+- у [[Стрічка угод (Tape)|Tape]];
+- через [[Дельта (Delta)|Delta]];
+- через [[CVD]];
+- через [[Дисбаланс (Imbalance)|Imbalance]];
+- через [[Поглинання (Absorption)|Absorption]].
+
+## Чому це важливо
+
+Графік показує результат.
+
+Order Flow показує боротьбу всередині цього результату.
+
+## Типова помилка новачка
+
+Думати, що Order Flow — це просто ще один індикатор.
+
+Насправді це спосіб дивитися на виконані угоди і реакцію ціни на них.
+
+## Ключова ідея
+
+Якщо агресивний потік сильний, але ціна не рухається, значить з іншого боку може стояти сильна ліквідність.
+
+## Пов'язані концепти
+
+- [[Мікроструктура ринку (Market Microstructure)|Market Microstructure]]
+- [[Стрічка угод (Tape)|Tape]]
+- [[Дельта (Delta)|Delta]]
 - [[CVD]]
-- [[Imbalance]]
-- [[Absorption]]
-- [[Volume Clusters]]
-- [[Failed Auction]]
-
-## Project impact
-
-Order Flow became a separate research branch next to [[Cross Exchange Arbitrage]].
-
-Current priority:
-
-1. collect tape data
-2. collect order book data
-3. detect large trades
-4. detect imbalances
-5. detect absorption
-6. compare signals against later price movement
-
-## Related sources
-
-- [[Order Flow Footprint Delta Absorption Research]]
-- [[Trader Dale Order Flow Webinar Analysis]]
+- [[Поглинання (Absorption)|Absorption]]
