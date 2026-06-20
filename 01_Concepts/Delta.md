@@ -1,36 +1,57 @@
-# Delta
+# Дельта (Delta)
 
-## Ukrainian
+## Назва українською
+
 Дельта.
 
-## Simple meaning
-Різниця між обсягом агресивних покупок та обсягом агресивних продажів.
+## Англійський термін
 
-## Formula
+Delta.
 
-Buy Volume minus Sell Volume.
+## Простою мовою
 
-## Interpretation
+Дельта показує різницю між агресивними покупками і агресивними продажами.
 
-Positive Delta means more aggressive buying.
+```text
+Delta = обсяг агресивних покупок - обсяг агресивних продажів
+```
 
-Negative Delta means more aggressive selling.
+## Як читати
 
-## Research questions
+Позитивна дельта:
 
-- Does Delta lead price?
-- Does Delta lag price?
-- Can Delta help detect reversals?
-- Does Delta weaken before exhaustion?
+- більше агресивних покупок;
+- покупці сильніше б'ють по ask.
 
-## Related concepts
+Негативна дельта:
 
-- [[Order Flow]]
-- [[Tape]]
+- більше агресивних продажів;
+- продавці сильніше б'ють по bid.
+
+## Де це видно
+
+Delta рахується зі [[Стрічка угод (Tape)|Tape]].
+
+Свічка показує результат, а Delta показує, хто агресивніше діяв усередині цього руху.
+
+## Типова помилка новачка
+
+Думати, що позитивна дельта завжди означає ріст ціни.
+
+Якщо покупці агресивно купують, а ціна не росте, це може бути [[Поглинання (Absorption)|Absorption]].
+
+## Для бота
+
+Delta може бути входом для:
+
+- [[CVD]];
+- [[Дисбаланс (Imbalance)|Imbalance]];
+- [[Поглинання (Absorption)|Absorption]];
+- пошуку виснаження покупців або продавців.
+
+## Пов'язані концепти
+
+- [[Стрічка угод (Tape)|Tape]]
 - [[CVD]]
-- [[Imbalance]]
-- [[Delta Divergence]]
-
-## Related module
-
-- [[OF_001_DELTA_TRACKER]]
+- [[Дисбаланс (Imbalance)|Imbalance]]
+- [[Поглинання (Absorption)|Absorption]]
