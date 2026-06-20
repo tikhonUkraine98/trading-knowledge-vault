@@ -11,14 +11,10 @@
             "id": "5f25986a2e0fb9a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Index/HOME.md.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "HOME.md"
+              "title": "Нова вкладка"
             }
           }
         ]
@@ -182,7 +178,22 @@
   },
   "active": "5f25986a2e0fb9a0",
   "lastOpenFiles": [
-    "README.md",
-    "00_Index/HOME.md.md"
+    "00_Index/HOME.md.md",
+    "01_Concepts/Order Flow.md",
+    "01_Concepts/Order Book.md",
+    "01_Concepts/Market Microstructure.md",
+    "01_Concepts/Liquidity.md",
+    "01_Concepts/Liquidity Wall.md",
+    "01_Concepts/Inventory Arbitrage.md",
+    "01_Concepts/Imbalance.md",
+    "01_Concepts/Iceberg Order.md",
+    "01_Concepts/Delta.md",
+    "01_Concepts/DOM vs Tape.md",
+    "01_Concepts/Cross Exchange Arbitrage.md",
+    "01_Concepts/CVD.md",
+    "01_Concepts/Bid-Ask Spread.md",
+    "01_Concepts/Absorption.md",
+    "00_Index/HOME.md",
+    "README.md"
   ]
 }
