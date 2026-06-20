@@ -27,7 +27,7 @@ Order Book / DOM / Level 2.
 
 Order Book показує наміри.
 
-[[Стрічка угод (Tape)|Tape]] показує дії.
+[[Tape|Стрічка угод (Tape)]] показує дії.
 
 ```text
 Order Book = наміри
@@ -38,19 +38,13 @@ Tape = виконані угоди
 
 Бачити велику заявку і думати: «ціна точно не пройде цей рівень».
 
-Насправді велика заявка може бути:
-
-- реальною ліквідністю;
-- айсбергом;
-- фейковою заявкою;
-- частиною [[Spoofing]];
-- заявкою, яку швидко знімуть.
+Насправді велика заявка може бути реальною, прихованою, фейковою або швидко знятою.
 
 ## Що дивитися
 
-- [[Ліквідність (Liquidity)|Liquidity]];
-- [[Спред (Spread)|Spread]];
-- [[Стіна ліквідності (Liquidity Wall)|Liquidity Wall]];
+- [[Liquidity|Ліквідність (Liquidity)]];
+- [[Spread|Спред (Spread)]];
+- [[Liquidity Wall|Стіна ліквідності (Liquidity Wall)]];
 - [[Refill]];
 - [[Quote Walking]];
 - [[Iceberg Order]];
@@ -58,7 +52,7 @@ Tape = виконані угоди
 
 ## Пов'язані концепти
 
-- [[Ліквідність (Liquidity)|Liquidity]]
-- [[Стрічка угод (Tape)|Tape]]
+- [[Liquidity|Ліквідність (Liquidity)]]
+- [[Tape|Стрічка угод (Tape)]]
 - [[DOM vs Tape]]
-- [[Поглинання (Absorption)|Absorption]]
+- [[Absorption|Поглинання (Absorption)]]
